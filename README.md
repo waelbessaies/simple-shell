@@ -14,6 +14,7 @@ compile it with
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 -exit exits shell (Usage: exit [status])
+
 -env prints environmental variables (Usage: env)
 
 ## Exmples Builtins

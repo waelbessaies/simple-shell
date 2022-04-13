@@ -8,7 +8,6 @@
 #include <string.h>
 #include <sys/wait.h>
 
-int imp_exit(char **args)
 extern char **environ;
 
 #endif

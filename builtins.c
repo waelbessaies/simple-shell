@@ -1,23 +1,27 @@
 #include "shell.h"
 /**
-* imp_env - function prints env variable
-* @args : command passed by the user
+*
+*
 * Return: print the enviroment variable
 */
 
-int imp_env(char **args)
-{
-	int i;
-	int len;
+int main(int argc, char **argv, char **envp)
 
-	for (i = 0; environ[i] != NULL; i++)
+
+{
+
+
+for (char **env = envp; *env != 0; env++)
+
 	{
-		len = strlen(environ[i]);
-		write(1, environ[i], len);
-		write(1, "\n", 1);
+		char *thisEnv = *env;
+		printf("%s\n", thisEnv);
 	}
-		return (0);
+
+			return (0);
+
 }
+
 
 /**
 *imp_exit - exit command
@@ -25,6 +29,7 @@ int imp_env(char **args)
 *Return: exit command
 */
 int imp_exit(char **args)
+
 {
 	return (0);
 }

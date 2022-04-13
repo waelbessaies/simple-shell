@@ -1,0 +1,17 @@
+.TH "April 13,2022" "Simple Shell man page"
+.SH NAME
+.B hsh
+-  simple UNIX command interpreter.
+.SH SYNOPSIS
+.B ./hsh
+.SH DESCRIPTION
+.is a shell command interpreter that executes command read from the standard input or from file.
+.SH BUILT-IN COMMANDS
+.B env
+- prints environment
+.B exit
+- exits the shell
+
+
+.SH AUTHOR
+Wael Bessaies

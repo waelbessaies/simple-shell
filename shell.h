@@ -8,5 +8,7 @@
 #include <string.h>
 #include <sys/wait.h>
 
-
+int main(int argc, char **argv)
+void prompt(void)
+void loop(void)
 #endif

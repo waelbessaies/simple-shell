@@ -1,0 +1,15 @@
+#include "shell.h"
+
+/**
+* main - main function to call the loop
+*
+* Return: 0 success
+**/
+int main(void)
+{
+
+	loop();
+
+	return (0);
+}
+

@@ -1,0 +1,10 @@
+#include "shell.h"
+/**
+ * prompt - print the prompt
+ *Return: 0 on succes 1 if failed
+ */
+
+int prompt(void)
+{
+write(STDOUT_FILENO, $,2);
+}

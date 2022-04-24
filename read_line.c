@@ -6,7 +6,7 @@
 char cmd_read_line(void)
 {
 	{
-		char *line = NULL;
+		char *line ;
 		size_t len = 30;	
 		size_t read;
 

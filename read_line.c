@@ -7,7 +7,7 @@ char cmd_read_line(void)
 {
 	{
 		char *line = NULL;
-		size_t len = 0;
+		size_t len = 30;	
 		size_t read;
 
 		read = getline(&line, &len, stdin);
